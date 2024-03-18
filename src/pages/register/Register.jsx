@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 import "./Register.css";
 import { Link, useNavigate } from "react-router-dom";
-import { HOME } from "../../helper/PageRoute";
+import { HOME,LOGIN } from "../../helper/PageRoute";
 
 const RegisterPage = () => {
   const [formData, setFormData] = useState({
@@ -108,7 +108,7 @@ const RegisterPage = () => {
                 <Col sm={9} className="justify-content-center">
                   <p>
                     Already have an account?
-                    <Link to="/login" className="text-light mx-2">
+                    <Link to={LOGIN} className="text-light mx-2">
                       Login
                     </Link>
                   </p>

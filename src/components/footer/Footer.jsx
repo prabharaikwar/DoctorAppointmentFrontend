@@ -50,7 +50,7 @@ const Footer = () => {
               <li className="mb-2 font-weight-bold">Information</li>
 
               <li className="mb-2">
-                <LinkAs to={SIGNUP} className="text-signup text-dark">
+                <LinkAs to={SIGNUP} className="li-text-none text-dark">
                   Sign Up
                 </LinkAs>
               </li>
